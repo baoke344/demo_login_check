@@ -19,7 +19,7 @@ public class GetUserData {
 
         ResultSet rs = pstmt.executeQuery();
 
-        if(rs == null){
+        if(!rs.isBeforeFirst()){
             return false;
         }
         else{

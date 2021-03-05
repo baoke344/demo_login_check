@@ -11,7 +11,7 @@
     <title>Register Page</title>
 </head>
 <body>
-<div align="center">
+<div>
     <h1>REGISTER FORM</h1>
     <form action="<%= request.getContextPath() %>/register" method="post">
         <table style="with: 80%">

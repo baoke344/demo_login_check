@@ -11,7 +11,7 @@
     <title>Log IN</title>
 </head>
 <body>
-<div align="center">
+<div>
     <h1>Log IN</h1>
     <form action="<%= request.getContextPath() %>/LoginServlet" method="post">
         <table style="with: 80%">

@@ -17,7 +17,7 @@ public class GetUserData {
         pstmt.setString(1, userName);
         pstmt.setString(2, userPassword);
 
-        ResultSet rs = pstmt.executeQuery(sql_check);
+        ResultSet rs = pstmt.executeQuery();
 
         if(rs == null){
             return false;

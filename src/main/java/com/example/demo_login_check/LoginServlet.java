@@ -34,7 +34,7 @@ public class LoginServlet extends HttpServlet {
         }
 
         if(check == true){
-            out.print("Hello"+ userName);
+            out.print("Hello "+ userName);
             out.println("You have logged in");
             Cookie ck = new Cookie("logname",userName);
             response.addCookie(ck);

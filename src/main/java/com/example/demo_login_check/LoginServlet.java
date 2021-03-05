@@ -22,7 +22,7 @@ public class LoginServlet extends HttpServlet {
         //Response type
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        request.getRequestDispatcher("index.jsp").include(request,response);
+        request.getRequestDispatcher("link.jsp").include(request,response);
 
         String userName = request.getParameter("userName");
         String userPassword = request.getParameter("password");

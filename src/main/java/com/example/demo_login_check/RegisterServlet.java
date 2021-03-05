@@ -18,7 +18,7 @@ public class RegisterServlet extends HttpServlet {
         //Response type
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        request.getRequestDispatcher("index.jsp").include(request,response);
+        request.getRequestDispatcher("link.jsp").include(request,response);
 
         //Get username and password
         String userName = request.getParameter("userName");
